@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.song_modification_form{
+    display: none;
+}
+
+
+.upload_panel_show{
+    display: block;
+  }
+
+
+  .song_modification_title{
+    display: none;
+  }
+
+
+  .song_upload_title{
+    display: block;
+  }
+
+
+
+
+  /* search bar */
+
+
+
+  .searchbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    /* border: 2px solid firebrick; */
+}
+  
+  .searchbox {
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0px 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    height: 36px;
+  }
+  
+  .searchbox i {
+    color: black;
+    margin-right: 18px;
+}
+.searchinput {
+  outline: none;
+  border-color: transparent;
+  margin-right: 20px;
+  width: 399px;
+}
+  
+.fa-xmark {
+  font-size: 23px;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 3px;
+}
+  
+.fa-magnifying-glass {
+  font-size: 23px;
+  padding-top: 8px;
+}
+  
+  .magnifying {
+    padding: 0px;
+    padding-left: 0px;
+  }
+
+
+
+
+
+
+  
+  .search_category {
+    display: flex;
+    background-color: black;
+    display: block;
+    padding: 0px;
+    width: 100%;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    height: 30px;
+}
+
+.searchlinkwithlogout{
+  display: flex;
+}
+
+.search-show-onkeyup{
+  display: block;
+}
+
+.search_category a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(128, 128, 128);
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.search_category a:hover {
+  background-color: rgba(128, 128, 128, 0.653);
+}
+
+.title_album {
+ display: flex;
+}
+
+.song_title h4 {
+  margin-bottom: 5px;
+  width: 50%;
+  /* border: 2px solid firebrick; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

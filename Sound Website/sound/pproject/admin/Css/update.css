@@ -1,0 +1,156 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.center {
+  position: relative;
+}
+
+.update_main {
+  /* border: 2px solid firebrick; */
+  position: absolute;
+  top: 0%;
+  width: 99.5%;
+  height: 93vh;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  /* display: none; */
+}
+
+
+    .upmain{
+    display: none;
+    }
+
+
+
+
+
+.update_form_div {
+  width: 100.1%;
+  height: 101%;
+  display: flex;
+  /* border: 2px solid firebrick; */
+  background-color: white;
+}
+
+.updateform {
+  width: 92%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.updatebtn_close {
+  padding-top: 40px;
+  width: 7%;
+  text-align: center;
+  /* border: 2px solid yellow; */
+}
+
+.updatebtn_close i {
+  color: rgba(0, 0, 0, 0.705);
+  font-size: 45px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.updatebtn_close i:hover {
+  color: black;
+}
+
+.formbody2_update {
+    /* border: 2px solid purple; */
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+
+.section1inner_update {
+    align-items: center;
+}
+
+.section2inner_first_update {
+    align-items: center;
+}
+
+
+.section2inner_second_update {
+    align-items: center;
+}
+
+
+.song_file_update{
+    align-items: center;
+}
+
+
+.category_submit_update {
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+.section2_update {
+    margin-top: -5px;
+}
+
+.form_section_update {
+    padding-left: 0px;
+}
+
+.section1_update {
+    /* margin-left: -40px; */
+    /* border: 2px solid firebrick; */
+    margin-top: 25px;
+    width: 50%;
+}
+
+.submit_upload{
+    background-color: rgba(0, 0, 0, 0.572);
+}
+
+.current_file{
+  color: red;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+.current_img{
+  color: green;
+  font-size: large;
+  font-weight: bold;
+}
+
+.file_detail{
+  margin-bottom: 20px;
+}
+
+.file_detail_label2{
+  margin-top: 20px;
+}
+
+
+.alert {
+  padding: 15px;
+  /* margin-bottom: 20px; */
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}

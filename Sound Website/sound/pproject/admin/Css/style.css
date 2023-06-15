@@ -1,0 +1,375 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.5fr 1fr;
+  grid-template-areas:
+    "sidebar nav nav"
+    "sidebar center center"
+    "sidebar center center";
+  height: 100vh;
+}
+
+.nav {
+  background-color: black;
+  grid-area: nav;
+}
+#upload_title{
+  color: white;
+}
+#modification_title{
+  color: white;
+}
+.sidebar {
+  background-color: #4E73DF;
+  grid-area: sidebar;
+  text-align: center;
+  /* padding-right: 5px; */
+}
+
+.center {
+  background-color: white;
+  grid-area: center;
+}
+
+.Song_Upload_Form {
+  /* border: 2px solid firebrick; */
+  background-color: #ffffff;
+  width: 90%;
+  height: 65vh;
+  margin-top: 55px;
+  margin-left: 30px;
+  color: white;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 6px 10px #7e7e7e;
+}
+
+.formbody {
+  /* border: 2px solid purple; */
+}
+
+.form_section {
+  /* border: 2px solid green; */
+  display: flex;
+  padding-top: 20px;
+  padding-left: 10px;
+  /* justify-content: space-between   ; */
+}
+
+.section1 {
+  /* border: 2px solid salmon; */
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.section2 {
+  /* border: 2px solid blue; */
+  width: 50%;
+  height: 50vh;
+}
+
+.section1inner {
+  /* border: 2px solid brown; */
+  margin-bottom: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  /* margin-top: 10px; */
+  /* text-align: center; */
+}
+
+.section1inner input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 3px;
+  outline: none;
+  border: 0px solid;
+  /* border: 2px solid firebrick; */
+  margin-top: 5px;
+}
+
+/* .section2inner{
+    display: flex;
+    flex-direction: column;
+} */
+
+.section2inner_first {
+  /* border: 2px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.section2inner_first label {
+  margin-bottom: 5px;
+}
+
+.section2inner_first input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 3px;
+  outline: none;
+  border: 0px solid;
+}
+
+.section2inner_second {
+  /* border: 2px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  width: auto;
+}
+
+.section2inner_second label {
+  margin-bottom: 5px;
+}
+
+.section2inner_second input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 3px;
+  outline: none;
+  border: 0px solid;
+}
+
+.song_file {
+  /* border: 2px solid firebrick; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  /* color: red; */
+}
+
+.song_file input {
+  margin-top: 7px;
+}
+
+.song_img {
+  margin-top: 10px;
+}
+
+.submit {
+  /* border: 2px solid firebrick; */
+  margin-top: 29px;
+  margin-left: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s ease;
+  outline: none;
+  border: 0px solid;
+}
+
+.submit:hover {
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+.admin_panel {
+  margin-top: 10px;
+}
+
+.admin_panel h2 {
+  color: white;
+}
+
+.upload_links {
+  /* border: 2px solid firebrick; */
+  margin-top: 30px;
+  margin-left: 10px;
+  /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.upload_links_inner_1 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.upload_links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.693);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.upload_links a:hover {
+  color: white;
+}
+
+.links_inner_flex {
+  display: flex;
+}
+
+.icolor {
+  color: rgba(0, 0, 139, 0.519);
+  transition: 0.5s ease;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.upload_links_inner_1:hover .icolor {
+  box-shadow: 2px 1px 2px 1px darkblue;
+}
+
+.gt {
+  margin-top: -33px;
+}
+
+.category_submit {
+  display: flex;
+  /* border: 2px solid firebrick; */
+  padding-top: 15px;
+}
+
+.submit_btn {
+  /* margin-left: auto; */
+  width: 70%;
+  /* border: 2px solid firebrick; */
+  text-align: center;
+}
+
+.nav_info {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid green; */
+}
+
+.song_upload_panel {
+  /* border: 2px solid firebrick; */
+  width: 85%;
+  text-align: center;
+}
+
+.admin_info {
+  /* border: 2px solid fuchsia; */
+  background-color: black;
+  color: white;
+  /* width: 15%; */
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.admin_logout {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  color: white;
+  border-radius: 5px;
+  display: none;
+  z-index: 100000;
+}
+
+.admin_logout_show {
+  display: block;
+}
+
+.logout {
+  text-align: center;
+  height: 30px;
+  transition: 0.5s ease;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 90%;
+}
+
+.admin_logout:hover .logout {
+  background-color: #FFFFFF;
+}
+
+.logout a {
+  text-decoration: none;
+  color: #3a3b45;
+  transition: 0.5s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.admin_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.admin_ii {
+  margin-right: 10px;
+}
+
+.admin_aero_down {
+  margin-left: 10px;
+}
+
+.upload_panel_hide {
+  display: none;
+}
+
+.upload_panel_show {
+  display: block;
+}
+
+.section1inner input {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.section1inner input:hover {
+  border: 1px solid rgb(0, 98, 255);
+}
+
+.section2inner_first input {
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.242);
+}
+
+.section2inner_first input:hover {
+  /* border: 1px solid rgb(0, 98, 255); */
+}
+
+.section2inner_second input {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.section2inner_second input:hover {
+  border: 1px solid rgb(0, 98, 255);
+}
+
+.category {
+  /* border: 2px solid firebrick; */
+}
+.song_modification_form{
+  background-color: white;
+}
+
+
+
+.song_img a {
+  color: black !important;
+}
+
+
+.extrabtnclose{
+  display: none;
+}

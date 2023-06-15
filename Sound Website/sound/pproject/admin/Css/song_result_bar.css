@@ -1,0 +1,245 @@
+.modification_main{
+    /* border: 2px solid firebrick; */
+    width: auto;
+}
+
+.main_div_for_songs {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    /* border: 2px solid yellow; */
+    overflow: auto;
+    /* overflow: hidden; */
+    height: 80.6vh;
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+   
+  }
+  
+  .song_img {
+    width: 100%;
+    position: relative;
+  }
+  
+  .song_img a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+    z-index: 10000;
+  }
+  
+  .song_img a:hover {
+    background-color: #36e3ec6b;
+    /* border-radius: 10px; */
+  }
+  
+  .song_title {
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  .song_title h4 {
+    margin-bottom: 5px;
+  }
+  
+  .song_artist_name_with_song_duration {
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .song_img a img {
+    width: 100px;
+  }
+  
+  .bi-play-fill {
+    position: absolute;
+    top: 22%;
+    left: 3.2%;
+    font-size: 25px;
+    transition: 0.6s ease;
+    color: red;
+    display: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  .main_song_bar {
+    /* border: 2px solid firebrick; */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bi-play-fill:hover{
+    text-shadow: 3px 3px 6px red;
+  }
+  
+  .main_song_bar:hover .bi-play-fill {
+    display: block;
+  }
+  
+  .main_artist_name {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .fa-play {
+    color: gold;
+    transition: 0.4s ease;
+    font-size: 30px;
+    position: relative;
+  top: -5px;
+  }
+  
+  .fa-play:hover {
+    text-shadow: 1px 0px 3px gold;
+  }
+  
+  .song_img_src {
+    z-index: 100000;
+  }
+  
+  .pause_none {
+    display: block;
+  }
+  
+  .fa-forward {
+    /* border: 2px solid red; */
+    margin-left: -20px;
+  }
+  
+  /* Custom Scroll Start */
+  
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color:white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    /* background-color: red; */
+  }
+  ::-webkit-scrollbar-track:hover {
+    background-color: white;
+  }
+  /* Custom Scroll End */
+  
+  .error {
+    color: white;
+  }
+  
+  .play {
+    /* border: 2px solid firebrick; */
+    position: relative;
+    margin-left: -6px;
+    height: 20px;
+    width: 50px;
+    /* text-align: center; */
+  }
+  
+  .bi-pause {
+    color: rgba(255, 0, 0, 0.798);
+    transition: 0.4s ease;
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+    position: absolute;
+    display: none;
+    top: -69%;
+    left: 0%;
+    height: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .bi-pause:hover{
+    color: red;
+    text-shadow: 2px 2px 5px red;
+  }
+  
+  .selected{
+    color: red;
+    background-color: rgba(144, 238, 144, 0.38);
+    border-radius: 10px;
+  }
+  .selected .bifill {
+    display: block;
+  }
+  
+  
+  .selected1{
+    color: gold !important;
+    background-color: rgba(144, 238, 144, 0.38) !important;
+  }
+  
+  .responsive-none-main{
+    display: none;
+  }
+
+  .song_detail_with_btns{
+    border: 2px solid firebrick;
+    display: flex;
+  }
+
+
+  .mod_btns{
+    display: flex;
+    justify-content: center;
+    align-items: end    ;
+    /* border: 2px solid firebrick; */
+    margin-left: 10px;
+  
+}
+
+
+.mod_btns a{
+    margin-right: 15px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.updatebtn{
+    /* background-color: rgb(51, 178, 34); */
+    background-color: rgb(30, 255, 0);
+
+    color: white;
+    transition: 0.5s ease;
+    padding: 6px 10px !important;
+}
+
+.updatebtn:hover{
+    /* background-color: rgb(30, 255, 0); */
+    background-color: rgb(51, 178, 34);
+
+}
+
+.deletebtn{
+    /* background-color: rgba(255, 0, 0, 0.502); */
+    background-color: red;
+
+    color: white;
+    transition: 0.5s ease;
+    padding: 6px 15px !important;
+
+}
+
+.deletebtn:hover{
+    /* background-color: red; */
+    background-color: rgba(255, 0, 0, 0.502);
+
+}

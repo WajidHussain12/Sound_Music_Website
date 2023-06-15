@@ -1,0 +1,911 @@
+@media screen and (max-height: 1345px) {
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 47vh;
+}
+}
+
+
+@media screen and (max-height: 610px) {
+  .section2 {
+    height: 59vh;
+}
+}
+
+@media screen and (max-width: 1281px) {
+  .section1responsive {
+    margin-left: 0px;
+    width: 50%;
+    margin-top: 25px;
+  }
+  .extrabtnclose {
+    display: none;
+  }
+  .section2_update {
+    margin-top: -16px;
+}
+
+
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.5fr 1fr;
+    /* border: 4px solid green; */
+  }
+
+  .update_mainresponsive {
+    /* border: 4px solid purple; */
+    height: 94vh !important;
+  }
+
+  .update_form_divresponsive {
+    /* border: 2px solid firebrick; */
+    width: 100% !important;
+    height: 94vh !important;
+  }
+
+  .updateformresponsive {
+    /* border: 2px solid firebrick; */
+    width: 84% !important;
+    display: block;
+    width: auto;
+    height: 90vh;
+  }
+
+  .formbodyresponsie {
+    /* border: 2px solid firebrick; */
+    margin: 0px;
+    height: 90vh;
+  }
+
+  .form_sectionresponsive {
+    /* border: 2px solid firebrick; */
+    padding: 0px;
+    display: block;
+    overflow: auto;
+    height: 90vh !important;
+  }
+
+  .section1responsive {
+    /* border: 2px solid firebrick; */
+    margin-left: 0px;
+    display: block;
+    width: 99%;
+    height: 45vh;
+    margin-top: 20px;
+  }
+
+  .section1innerresponsive {
+    /* border: 2px solid firebrick; */
+    margin-bottom: 8px;
+  }
+
+  .section1innerresponsive input {
+    width: 70%;
+  }
+  .section1responsive {
+    height: 21vh;
+    margin-top: 46px;
+}
+
+.section2responsive {
+  /* border: 2px solid firebrick; */
+  margin: 0px;
+  width: 99%;
+  height: 58vh;
+  margin-top: 178px;
+}
+
+  .section2inner_firstresponsive {
+    /* border: 2px solid firebrick; */
+  }
+
+  .section2inner_firstresponsive input {
+    width: 70%;
+  }
+
+  .section2inner_secondresponsive {
+    /* border: 2px solid firebrick; */
+  }
+
+  .section2inner_secondresponsive input {
+    width: 70%;
+  }
+
+  .song_fileresponsive {
+    /* border: 2px solid firebrick; */
+  }
+
+  .song_imgresponsive {
+    /* border: 2px solid firebrick; */
+  }
+
+  .category_submitresponsive {
+    /* border: 2px solid firebrick; */
+  }
+
+  .categoryresponsive {
+    /* border: 2px solid firebrick; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 20px;
+  }
+
+  .submit_btnresponsive {
+    /* border: 2px solid firebrick; */
+    width: 20%;
+  }
+
+  .submitresponsive {
+    /* border: 2px solid firebrick; */
+  }
+
+  .updatebtn_closeresponsive {
+    padding-top: 72px;
+  }
+
+  .upload_links a {
+    font-size: 13px;
+  }
+
+  .admin_panel {
+    font-size: 13px;
+  }
+
+  #modification_title {
+    font-size: 25px;
+  }
+
+  .section1 {
+    height: 63.5vh;
+  }
+
+  .Song_Upload_Form {
+    height: 69vh;
+  }
+  .extrabtnclose {
+    display: none;
+  }
+  .main_div_for_songs {
+    height: 76.6vh;
+}
+}
+
+@media screen and (max-width: 913px) {
+
+  .container {
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+  .extrabtnclose {
+    display: none;
+  }
+  .section1responsive {
+    height: 21vh;
+    margin-top: 53px;
+  }
+
+  #modification_title {
+    margin-top: 47px;
+  }
+
+  .section1 {
+    display: block;
+  }
+
+  .section1inner {
+    margin-top: 0px;
+  }
+
+  .Song_Upload_Form {
+    height: 34vh;
+  }
+
+  #upload_title {
+    font-size: 26px;
+    margin-top: 46px;
+  }
+  .admin_info {
+    margin-top: 46px;
+  }
+
+  .main_song_bar {
+    flex-direction: column;
+    width: 97%;
+  }
+
+  .song_img a {
+    flex-direction: column;
+  }
+
+  .song_title {
+    text-align: center;
+  }
+
+  .song_artist_name_with_song_duration {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mod_btns {
+    margin-top: 13px;
+  }
+
+  .Song_Upload_Form {
+    height: 57vh;
+  }
+  .form_section {
+    /* border: 2px solid green; */
+    display: block;
+    overflow: auto;
+  }
+
+  .section1 {
+    height: 26.5vh;
+    /* border: 2px solid firebrick; */
+    width: 97%;
+  }
+
+  .section2 {
+    /* border: 2px solid blue; */
+    width: auto;
+    height: auto;
+    margin-top: -20px;
+  }
+
+  .section1inner {
+    align-items: center;
+  }
+
+  .section2inner_first {
+    align-items: center;
+  }
+  .section2inner_second {
+    align-items: center;
+  }
+
+  .song_file {
+    align-items: center;
+  }
+
+  .category_submit {
+    display: flex;
+    padding-top: 20px;
+  }
+
+  .category {
+    /* border: 2px solid firebrick; */
+    width: 69%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .submit_btn {
+    /* border: 2px solid firebrick; */
+    text-align: center;
+    width: 22%;
+  }
+
+  .section2responsive {
+    /* border: 2px solid firebrick; */
+    margin: 0px;
+    width: 99%;
+    height: 58vh;
+    margin-top: 20px;
+}
+
+.title_album {
+  display: flex;
+  flex-direction: column;
+}
+.song_title h4 {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.main_div_for_songs {
+  height: 85.6vh;
+}
+
+.search_category a {
+
+  padding-top: 0px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 12px;
+  font-size: 12px;
+  margin: 0px;
+  margin-left: 10px;
+
+}
+
+
+
+
+}
+
+@media screen and (max-width: 821px) {
+  .main_div_for_songs {
+    height: 92.6vh;
+    width: 98%;
+  }
+
+  .update_form_divresponsive {
+    height: 92.5vh !important;
+  }
+
+  .update_mainresponsive {
+    height: 91vh !important;
+  }
+
+  .Song_Upload_Form {
+    height: 65vh;
+  }
+
+  .section2 {
+    margin-top: 26px;
+  }
+  .extrabtnclose {
+    display: none;
+  }
+  .section2inner_first input {
+    width: 67%;
+}
+
+.section2inner_second input {
+  width: 68%;
+}
+.section2responsive {
+  margin-top: 53px;
+}
+.main_div_for_songs {
+  height: 83.6vh;
+}
+
+}
+
+@media screen and (max-width: 769px) {
+  .main_div_for_songs {
+    height: 91.7vh;
+  }
+  .update_form_divresponsive {
+    height: 91.7vh !important;
+  }
+  .section2 {
+    margin-top: 71px;
+  }
+
+  .Song_Upload_Form {
+    height: 76vh;
+  }
+  .extrabtnclose {
+    display: none;
+  }
+  .section2responsive {
+    margin-top: 85px;
+}
+.main_div_for_songs {
+  height: 80.7vh;
+}
+
+.search_category a {
+  padding-left: 8px;
+  padding-right: 10px;
+  font-size: 11px;
+}
+}
+
+@media screen and (max-width: 541px) {
+  .container {
+    grid-template-columns: 0.6fr 1fr 1fr;
+  }
+
+  .extrabtnclose {
+    display: none;
+  }
+
+  .Song_Upload_Form {
+    height: 76vh;
+    overflow: auto;
+  }
+
+  .Song_Upload_Form {
+    width: 100%;
+    height: 84vh;
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+  .section2 {
+    margin-top: 158px;
+  }
+
+  .category {
+    width: 63%;
+  }
+
+  .formbody {
+    height: 108vh;
+  }
+
+  #upload_title {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+
+  .admin_panel {
+    font-size: 11px;
+  }
+
+  .upload_links {
+    margin-left: 5px;
+  }
+
+  .icolor {
+    /* margin-right: 6px; */
+  }
+
+  .main_div_for_songs {
+    height: 88.4vh;
+    width: 97%;
+  }
+
+  .formbodyresponsie {
+    height: 87vh;
+  }
+
+  .form_sectionresponsive {
+    height: 88vh !important;
+  }
+
+  .update_mainresponsive {
+    height: 87vh !important;
+    width: 99%;
+  }
+
+  .update_form_divresponsive {
+    height: 86.7vh !important;
+    width: 100% !important;
+  }
+
+  .updateformresponsive {
+    height: 86vh;
+  }
+
+  .updatebtn_close {
+    padding-top: 40px;
+    width: 15%;
+    text-align: center;
+  }
+  .category_submitresponsive {
+    margin-left: 0px;
+  }
+
+  .update_form_divresponsive {
+    height: 87.7vh !important;
+    width: 100% !important;
+  }
+
+  .section1innerresponsive input {
+    width: 80%;
+  }
+
+  .section2inner_firstresponsive input {
+    width: 80%;
+  }
+
+  .section2inner_secondresponsive input {
+    width: 80%;
+  }
+
+  .section2responsive {
+    margin-top: 131px;
+    height: 83vh;
+  }
+
+  .categoryresponsive {
+    width: 49%;
+  }
+  .section2responsive {
+    margin-top: 154px;
+}
+.searchinput {
+  width: 308px;
+}
+.main_div_for_songs {
+  height: 69.4vh;
+}
+.search_category {
+  height: 60px;
+}
+}
+
+@media screen and (max-width: 415px) {
+  #updatebtn_mark2 {
+    font-size: 23px !important;
+  }
+
+  .song_fileresponsive {
+    width: 98%;
+    margin: 0px;
+  }
+
+  .extrabtnclose {
+    display: block;
+  }
+
+  .category_submitresponsive {
+    display: flex;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .song_imgresponsive {
+    width: 98%;
+  }
+
+  .updatebtn_closeresponsivenone {
+    display: none;
+  }
+
+  .update_form_divresponsive {
+    display: flex;
+    flex-direction: column;
+    height: 93.7vh !important;
+  }
+
+  .updatebtn_close {
+    padding-top: 29px;
+    width: 0%;
+    height: 41px;
+    margin-left: 276px;
+    margin-top: -13px;
+  }
+
+  .formbodyresponsie {
+    width: 118%;
+    height: 76vh;
+  }
+
+  .section2responsive {
+    margin-top: 131px;
+    height: 77vh;
+  }
+  .form_sectionresponsive {
+    height: 75vh;
+  }
+  .form_sectionresponsive {
+    height: 80vh !important;
+  }
+
+  .update_mainresponsive {
+    height: 85vh !important;
+    width: 99%;
+  }
+
+  .main_div_for_songs {
+    height: 93.5vh;
+    width: 97%;
+  }
+
+  .submit_btn {
+    text-align: center;
+    width: 50%;
+  }
+
+  .section1responsive {
+    margin-top: 8px;
+  }
+
+  .section2 {
+    margin-top: 113px;
+  }
+
+  .Song_Upload_Form {
+    width: 99%;
+    height: 93.5vh;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 0px;
+  }
+
+  .category_submit {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .song_file input {
+    margin-top: 7px;
+    width: 100%;
+  }
+
+  .section2inner_second {
+    margin-bottom: 34px;
+  }
+
+  #modification_title {
+    margin-top: 0px;
+    font-size: 17px;
+  }
+
+  .upload_links a {
+    font-size: 9px;
+  }
+
+  .admin_panel {
+    font-size: 9px;
+  }
+
+  .section2inner_first input {
+    width: 65%;
+  }
+
+  .section2inner_second input {
+    width: 65%;
+  }
+  #upload_title {
+    font-size: 17px;
+    margin-top: 0px;
+  }
+
+  .admin_info {
+    margin-top: 0px;
+  }
+
+  .admin_icon {
+    margin-top: 0px;
+  }
+
+  .nav_info {
+    padding-top: 7px;
+  }
+
+  .nav {
+    height: 33px;
+  }
+
+  .updatebtn_closeresponsive {
+    padding-top: 0px;
+  }
+
+  .main_div_for_songs {
+    height: 78.5vh;
+}
+.searchinput {
+  width: 209px;
+}
+
+.modification_main {
+
+  margin-top: -23px;
+}
+.search_category a {
+  padding-left: 6px;
+  padding-right: 5px;
+  font-size: 11px;
+}
+}
+
+@media screen and (max-width: 413px) {
+}
+
+@media screen and (max-width: 394px) {
+    .updatebtn_close {
+        padding-top: 4px;
+        width: 0%;
+        height: 41px;
+        margin-left: 258px;
+        margin-top: -12px;
+    }
+    .search_category a {
+      padding-left: 17px;
+      padding-right: 18px;
+      font-size: 11px;
+  }
+  .search_category {
+    height: 92px;
+}
+.main_div_for_songs {
+  height: 76.5vh;
+}
+}
+
+@media screen and (max-width: 391px) {
+  .section2 {
+    margin-top: 122px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+    .updatebtn_close {
+        padding-top: 15px;
+        width: 0%;
+        height: 41px;
+        margin-left: 251px;
+        margin-top: -12px;
+    }
+  .section2 {
+    margin-top: 168px;
+  }
+  .section2inner_firstresponsive input {
+    width: 80% !important;
+  }
+
+  .section2inner_secondresponsive input {
+    width: 80% !important;
+  }
+
+  .section2responsive {
+    margin-top: 144px !important;
+    height: 77vh;
+  }
+
+  .form_sectionresponsive {
+    height: 83vh !important;
+  }
+
+  #upload_title {
+    font-size: 14px !important;
+    margin-top: 5px !important;
+  }
+
+  #modification_title {
+    margin-top: 5px !important;
+    font-size: 14px !important;
+  }
+
+  .admin_panel {
+    font-size: 8px !important;
+  }
+  .icolor {
+    margin-right: 0px !important;
+  }
+  .file_detail {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .section2responsive {
+    margin-top: 161px !important;
+    height: 77vh;
+}
+.modification_main {
+  margin-top: -8px;
+}
+.searchinput {
+  width: 190px;
+}
+.main_div_for_songs {
+  height: 69.5vh;
+}
+
+.center {
+  position: relative;
+  width: 99.6%;
+}
+
+.nav {
+  height: 33px;
+  width: 99.6%;
+}
+}
+
+@media screen and (max-width: 361px) {
+    .updatebtn_close {
+        padding-top: 15px;
+        width: 0%;
+        height: 41px;
+        margin-left: 243px;
+        margin-top: -12px;
+    }
+    .center {
+      position: relative;
+      width: 99.6%;
+      margin-top: -6px;
+  }
+  .searchinput {
+    width: 179px;
+}
+
+.main_div_for_songs {
+  height: 73.5vh;
+}
+}
+
+@media screen and (max-width: 281px) {
+  #upload_title {
+    font-size: 8px !important;
+    margin-top: 14px !important;
+  }
+
+  #modification_title {
+    margin-top: 14px !important;
+    font-size: 8px !important;
+  }
+
+  .deletebtn {
+    padding: 6px 12px !important;
+  }
+
+  .updatebtn {
+    padding: 5px 5px !important;
+  }
+  .admin_panel {
+    font-size: 6px !important;
+  }
+
+  .updatebtn_close {
+    padding-top: 29px;
+    width: 0%;
+    height: 41px;
+    margin-left: 176px;
+  }
+  .updatebtn_close {
+    padding-top: 17px;
+    width: 0%;
+    height: 41px;
+    margin-left: 170px;
+}
+.section1inner input {
+  width: 99%;
+}
+.section2inner_first input {
+  width: 90%;
+  margin-left: 8px;
+}
+.section2inner_second input {
+  width: 90%;
+  margin-left: 8px;
+} 
+.section2responsive {
+  margin-top: 168px !important;
+  height: 77vh;
+}
+.searchinput {
+  width: 113px;
+}
+.modification_main {
+  margin-top: -2px;
+}
+.search_category a {
+  padding-left: 11px;
+  padding-right: 10px;
+  font-size: 11px;
+}
+
+.search_category {
+  height: 83px;
+}
+
+.admin_icon {
+  margin-top: 9px;
+  font-size: 11px;
+}
+
+.searchbox {
+  height: 21px;
+}
+.fa-magnifying-glass {
+  font-size: 16px;
+  padding-top: 3px;
+}
+
+.searchbar {
+  height: 35px;
+}
+}
